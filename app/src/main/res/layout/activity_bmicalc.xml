@@ -30,6 +30,16 @@
             android:textAlignment="center"
             android:textColor="#9d9d9f"
             android:textSize="50sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#9d9d9f"
+            android:text="(Normal range is 18.5-24.9)"
+            />
 
     </androidx.cardview.widget.CardView>
 

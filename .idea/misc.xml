@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Tringapps-Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_bmicalc.xml" value="0.1" />
+        <entry key="..\:/Users/Tringapps-Admin/AndroidStudioProjects/Demo/app/src/main/res/drawable/pause.xml" value="0.184" />
+        <entry key="..\:/Users/Tringapps-Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_bmicalc.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Tringapps-Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Tringapps-Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_mmedia.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Tringapps-Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_second.xml" value="0.1743659420289855" />
       </map>
     </option>

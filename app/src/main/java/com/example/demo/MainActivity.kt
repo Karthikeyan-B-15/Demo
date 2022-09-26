@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btn = findViewById<Button>(R.id.button)
         val nbtn=findViewById<Button>(R.id.nav)
         val bbtn=findViewById<Button>(R.id.bmi)
+        val vbtn=findViewById<Button>(R.id.vbtn)
         btn.setOnClickListener {
             text.text = "Karthi"
         }
@@ -24,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         }
         bbtn.setOnClickListener {
             val intent= Intent(this,BMICalc::class.java)
+            startActivity(intent)
+        }
+        vbtn.setOnClickListener {
+            val intent=Intent(this,MMedia::class.java)
             startActivity(intent)
         }
     }

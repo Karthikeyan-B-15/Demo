@@ -15,7 +15,11 @@ class BMICalc : AppCompatActivity() {
         val calc=findViewById<Button>(R.id.calc)
         calc.setOnClickListener {
             val display=findViewById<TextView>(R.id.dtext)
-            display.setText((height.text.toString().toInt()+weight.text.toString().toInt()).toString())
+            val bmi=weight.text.toString().toFloat()/((height.text.toString().toFloat()/100)*height.text.toString().toFloat()/100)
+            val bmidigit= String.format("%.2f",bmi).toFloat()
+            display.setText(bmidigit.toString())
+            height.setText("")
+            weight.setText("")
         }
     }
 }
